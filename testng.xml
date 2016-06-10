@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="suite">
+    <test name="test">
+
+        <groups>
+
+        </groups>
+        <classes>
+            <class name="core.SignUpPageTest">
+                <methods>
+                    <include name="test_01_verifyTitle"/>
+                    <include name="test_02_verify_link_facebook"/>
+                    <include name="test_03_verify_link_twitter"/>
+                    <include name="test_04_verify_link_flickr"/>
+                    <include name="test_05_verify_link_youtube"/>
+                    <include name="test_06_verify_errorHandling_FirstName_empty"/>
+                    <include name="test_07_verify_errorHandling_LastName_empty"/>
+                    <include name="test_08_verify_errorHandling_Email_empty"/>
+                    <include name="test_09_verify_errorHandling_Phone_empty"/>
+                    <include name="test_10_verify_errorHandling_invalidInput"/>
+                    <include name="test_11_verify_errorHandling_invalidInput"/>
+                    <include name="test_12_verify_errorHandling_invalidInput"/>
+                    <include name="test_13_verify_errorHandling_invalidInput"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
